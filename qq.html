@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Mobile Demo</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+    <script src="js/jquery-2.2.2.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#trackBar").click(function(){
+				alert("注册成功！");
+			});
+		});
+	</script>
+
+</head>
+<style type="text/css">
+	img{
+		margin-left: 100px;
+	}
+	zhuce{
+		float: left;
+		margin-left: 10px;
+	}
+
+
+	</style>
+<body>
+	       <header data-role="header" data-position="fixed"  data-fullscreen="true" >
+        <h1>登陆</h1>
+        </header>
+	<img src="qq.jpg" height="200" width="200">
+
+
+	<div data-role="fieldcontain">
+		<label for="text"></label>
+		<input type="text" name="text" id="text" value="" placeholder="账号：" />
+		<label for="text"></label>
+		<input type="text" name="text" id="text" value=""  placeholder="密码："  />
+	  <div><a href="qq1.html" data-role="button" data-theme="b" rel="external"  data-transition="slideup" name="trackBar" id="trackBar">登陆</a></div>
+	<div class="zhuce">
+	<a href="qqzhuce.html" rel="external" >新用户注册</a>
+	</div>
+	
+	
+</body>
+</html>
